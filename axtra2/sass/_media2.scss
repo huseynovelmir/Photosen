@@ -1,0 +1,320 @@
+@media(max-width:950px) {
+    #nav {
+        .nav-links {
+            .nav-link {
+                display: none;
+
+            }
+
+            #menu {
+                margin-right: 30px;
+                display: block;
+            }
+        }
+
+
+    }
+
+    .home-block {
+        .text {
+            margin-left: 1%;
+            padding-left: 20px;
+            padding-right: 20px;
+           margin-top: 100px;
+
+            h1 {
+
+                margin: 20px 0;
+                font-size: 30px;
+            }
+        }
+
+        .person-img {
+
+            padding-right: 10px;
+            padding-left: 10px;
+
+            img {
+                width: 330px;
+            }
+        }
+
+    }
+
+    .person-details {
+        .details-img {
+            padding-left: 10px;
+            padding-right: 10px;
+
+            img {
+                width: 330px;
+            }
+        }
+
+        .details-text {
+            margin-left: 1%;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h1 {
+                margin: 20px 0;
+                font-size: 30px;
+
+            }
+        }
+    }
+
+    .services {
+        margin: 5% 15%;
+    }
+
+
+    .container {
+        .cow {
+            width: 40%;
+        }
+    }
+
+    .statics {
+        height: 600px;
+
+        .result {
+            width: 50%;
+        }
+    }
+
+    .image-container {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .hover-img {
+            width: 45%;
+        }
+    }
+
+    .parametrs {
+        li {
+            margin-inline: 5%;
+        }
+    }
+
+    .image-container {
+        .hover-img::after {
+            height: 88%;
+        }
+    }
+
+    .feedback-icons {
+        width: 100%;
+
+        .icon {
+            width: 100%;
+        }
+    }
+
+    .buy-menu {
+        .price-menu {
+            width: 50%;
+            padding-top: 50px;
+            padding-bottom: 550px;
+
+        }
+    }
+
+    .foot-container1 {
+
+        .foot-img:nth-child(4) {
+            display: none;
+        }
+
+        .foot-img:nth-child(5) {
+            display: none;
+        }
+
+    }
+
+    footer {
+        width: 100%;
+
+        .about {
+            width: 40%;
+        }
+
+        .news {
+            width: 40%;
+        }
+
+        .social {
+            width: 40%;
+            display: flex;
+            margin-left: 6%;
+            flex-direction: column;
+            margin-inline-end: auto;
+
+            .s-icons {
+                justify-content: space-between;
+                margin-right: 70%;
+            }
+
+            P {
+                top: 0%;
+            }
+        }
+
+    }
+
+
+
+
+
+}
+
+@media(max-width:590px) {
+    .home-block {
+        display: block;
+
+
+        .person-img {
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        }
+    }
+
+    .person-details {
+        display: block;
+
+        .details-img {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .services {
+        margin: 15% 5%;
+
+        h1 {
+            font-size: 30px;
+
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .container {
+        .cow {
+            width: 100%;
+        }
+    }
+
+    .statics {
+        height: 700px;
+
+        .result {
+            width: 100%;
+        }
+    }
+
+    .image-container {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .hover-img {
+            width: 100%;
+        }
+
+        .hover-img::after {
+            height: 88%;
+        }
+
+    }
+
+    .feedback-container {
+        .feedback {
+            width: 100%;
+        }
+    }
+
+    .buy-menu {
+        .price-menu {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 550px;
+
+        }
+    }
+
+    .litle-problem {
+        margin-top: 40%;
+    }
+
+
+
+    .recent-ontainer {
+
+
+        .recent {
+            width: 70%;
+
+        }
+
+        .person {
+            width: 100%;
+        }
+
+        .comment {
+            width: 100%;
+        }
+    }
+
+    .foot-container1 {
+        .foot-img {
+            width: 30%;
+        }
+
+        .foot-img:nth-child(4) {
+            display: none;
+        }
+
+        .foot-img:nth-child(5) {
+            display: none;
+        }
+
+        .foot-img:nth-child(2) {
+            display: none;
+        }
+
+    }
+
+    footer {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .about {
+            width: 80%;
+
+
+        }
+
+        .news {
+            width: 80%;
+        }
+
+        .social {
+            width: 80%;
+
+
+
+        }
+
+    }
+}

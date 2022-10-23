@@ -1,0 +1,47 @@
+@media(max-width:950px) {
+    .header {
+        h1 {
+            margin-top: 5%;
+        }
+    }
+
+    nav {
+        display: none;
+    }
+
+    .links {
+        a {
+            display: none;
+        }
+
+    }
+
+    .container {
+        display: block;
+        margin-top: 5%;
+
+        .cube {
+
+            width: 96%;
+            margin: 2%;
+
+            .image-info {
+                top: 46%;
+                left: 42%;
+            }
+
+        }
+    }
+}
+
+@media (max-width:390px) {
+    .container {
+        .cube {
+            .image-info {
+                top: 42%;
+                left: 32%;
+            }
+        }
+    }
+
+}
